@@ -6,13 +6,13 @@
 //  Copyright © 2016年 NonMac. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "SecondNavVC.h"
 
-@interface SecondViewController ()
+@interface SecondNavVC ()
 
 @end
 
-@implementation SecondViewController
+@implementation SecondNavVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

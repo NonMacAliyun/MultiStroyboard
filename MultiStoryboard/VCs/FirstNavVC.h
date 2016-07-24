@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  MultiStoryboard
 //
 //  Created by Non on 16/7/24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface FirstNavVC : UIViewController
 
 
 @end

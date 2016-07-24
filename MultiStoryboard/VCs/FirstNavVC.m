@@ -6,13 +6,13 @@
 //  Copyright © 2016年 NonMac. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "FirstNavVC.h"
 
-@interface FirstViewController ()
+@interface FirstNavVC ()
 
 @end
 
-@implementation FirstViewController
+@implementation FirstNavVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
