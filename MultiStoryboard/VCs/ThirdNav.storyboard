@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gaQ-Gc-Nls">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Second NavVC-->
+        <scene sceneID="McZ-05-APV">
+            <objects>
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="ykB-x8-ujw" customClass="SecondNavVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q9k-UF-dG8"/>
+                        <viewControllerLayoutGuide type="bottom" id="3IN-Qx-hzC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MFQ-9A-84c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Third View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JPf-nV-EoP">
+                                <rect key="frame" x="75" y="187" width="170" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by ThirdNavVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZX-tX-l2G">
+                                <rect key="frame" x="85" y="237" width="149" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ztr-BC-SH3">
+                                <rect key="frame" x="270" y="72" width="30" height="30"/>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <segue destination="J6z-eR-TmG" kind="show" id="a6E-US-yDv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="JPf-nV-EoP" secondAttribute="centerX" id="KR2-hj-aTZ"/>
+                            <constraint firstItem="Ztr-BC-SH3" firstAttribute="top" secondItem="Q9k-UF-dG8" secondAttribute="bottom" constant="8" symbolic="YES" id="OW0-6L-b0j"/>
+                            <constraint firstItem="EZX-tX-l2G" firstAttribute="centerX" secondItem="JPf-nV-EoP" secondAttribute="centerX" id="P4c-3I-Cvv"/>
+                            <constraint firstItem="EZX-tX-l2G" firstAttribute="top" secondItem="JPf-nV-EoP" secondAttribute="bottom" constant="8" symbolic="YES" id="a81-zD-jVg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ztr-BC-SH3" secondAttribute="trailing" constant="4" id="e4b-Wy-TUi"/>
+                            <constraint firstAttribute="centerY" secondItem="JPf-nV-EoP" secondAttribute="centerY" id="jQy-6A-qNd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZF5-Se-mJI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZl-wa-4wi" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="377"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="41L-7r-HjN">
+            <objects>
+                <navigationController id="gaQ-Gc-Nls" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="tabbar3.png" id="aR3-7l-Gc6"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Kd9-Ol-bfc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ykB-x8-ujw" kind="relationship" relationship="rootViewController" id="YRE-Ot-JWe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3BQ-iD-nNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="377"/>
+        </scene>
+        <!--Third Nav2 Level-->
+        <scene sceneID="809-ia-nHG">
+            <objects>
+                <viewController extendedLayoutIncludesOpaqueBars="YES" hidesBottomBarWhenPushed="YES" id="J6z-eR-TmG" customClass="ThirdNav2Level" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="a2f-U6-Cxa"/>
+                        <viewControllerLayoutGuide type="bottom" id="3yc-qh-zOg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yQB-41-Q7W">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="SecondLevel" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="av0-WO-ALw">
+                                <rect key="frame" x="56" y="219" width="209" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstNavVC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sM-53-UMU">
+                                <rect key="frame" x="89" y="269" width="143" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7sM-53-UMU" firstAttribute="centerX" secondItem="av0-WO-ALw" secondAttribute="centerX" id="EOJ-Qy-aTD"/>
+                            <constraint firstItem="7sM-53-UMU" firstAttribute="top" secondItem="av0-WO-ALw" secondAttribute="bottom" constant="8" symbolic="YES" id="MLv-0E-J3i"/>
+                            <constraint firstAttribute="centerY" secondItem="av0-WO-ALw" secondAttribute="centerY" id="VZa-bE-pVo"/>
+                            <constraint firstAttribute="centerX" secondItem="av0-WO-ALw" secondAttribute="centerX" id="qAP-Pq-eQa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tf7-rR-mqw"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lne-ne-MyA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1287" y="377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar3.png" width="23" height="30"/>
+    </resources>
+</document>

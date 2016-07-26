@@ -13,10 +13,15 @@
 		F86987B11D444B16003D2264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86987AF1D444B16003D2264 /* LaunchScreen.storyboard */; };
 		F86987C01D444BBF003D2264 /* FirstNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F86987BD1D444BBF003D2264 /* FirstNavVC.m */; };
 		F86987C11D444BBF003D2264 /* SecondNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F86987BF1D444BBF003D2264 /* SecondNavVC.m */; };
-		FAE07EAF1D46273200324ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE07EAE1D46273200324ECB /* Main.storyboard */; };
 		FAE07EB41D462E6900324ECB /* tabbar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE07EB11D462E6900324ECB /* tabbar1@2x.png */; };
 		FAE07EB51D462E6900324ECB /* tabbar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE07EB21D462E6900324ECB /* tabbar2@2x.png */; };
 		FAE07EB61D462E6900324ECB /* tabbar3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE07EB31D462E6900324ECB /* tabbar3@2x.png */; };
+		FAE140861D4710F9005C7424 /* FirstNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE140851D4710F9005C7424 /* FirstNav.storyboard */; };
+		FAE1408B1D47121F005C7424 /* ThirdNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1408A1D47121F005C7424 /* ThirdNav.storyboard */; };
+		FAE1408D1D471660005C7424 /* SecondNav.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1408C1D471660005C7424 /* SecondNav.storyboard */; };
+		FAE140941D471851005C7424 /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE140921D471851005C7424 /* Main2.storyboard */; };
+		FAE140971D471876005C7424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE140951D471876005C7424 /* Main.storyboard */; };
+		FAE1409A1D472DDA005C7424 /* ThirdNav2Level.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE140991D472DDA005C7424 /* ThirdNav2Level.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +36,16 @@
 		F86987BD1D444BBF003D2264 /* FirstNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstNavVC.m; sourceTree = "<group>"; };
 		F86987BE1D444BBF003D2264 /* SecondNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNavVC.h; sourceTree = "<group>"; };
 		F86987BF1D444BBF003D2264 /* SecondNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNavVC.m; sourceTree = "<group>"; };
-		FAE07EAE1D46273200324ECB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FAE07EB11D462E6900324ECB /* tabbar1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar1@2x.png"; sourceTree = "<group>"; };
 		FAE07EB21D462E6900324ECB /* tabbar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar2@2x.png"; sourceTree = "<group>"; };
 		FAE07EB31D462E6900324ECB /* tabbar3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar3@2x.png"; sourceTree = "<group>"; };
+		FAE140851D4710F9005C7424 /* FirstNav.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FirstNav.storyboard; path = VCs/FirstNav.storyboard; sourceTree = "<group>"; };
+		FAE1408A1D47121F005C7424 /* ThirdNav.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ThirdNav.storyboard; path = VCs/ThirdNav.storyboard; sourceTree = "<group>"; };
+		FAE1408C1D471660005C7424 /* SecondNav.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SecondNav.storyboard; path = VCs/SecondNav.storyboard; sourceTree = "<group>"; };
+		FAE140931D471851005C7424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main2.storyboard; sourceTree = "<group>"; };
+		FAE140961D471876005C7424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE140981D472DDA005C7424 /* ThirdNav2Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdNav2Level.h; sourceTree = "<group>"; };
+		FAE140991D472DDA005C7424 /* ThirdNav2Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdNav2Level.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +78,18 @@
 		F869879D1D444B16003D2264 /* MultiStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				FAE140851D4710F9005C7424 /* FirstNav.storyboard */,
+				FAE1408C1D471660005C7424 /* SecondNav.storyboard */,
+				FAE1408A1D47121F005C7424 /* ThirdNav.storyboard */,
+				FAE140871D471114005C7424 /* storyboards */,
 				FAE07EB01D462E5F00324ECB /* images */,
 				F86987BB1D444BBF003D2264 /* VCs */,
 				F86987A11D444B16003D2264 /* AppDelegate.h */,
 				F86987A21D444B16003D2264 /* AppDelegate.m */,
 				F86987AD1D444B16003D2264 /* Assets.xcassets */,
 				F86987AF1D444B16003D2264 /* LaunchScreen.storyboard */,
+				FAE140921D471851005C7424 /* Main2.storyboard */,
+				FAE140951D471876005C7424 /* Main.storyboard */,
 				F86987B21D444B16003D2264 /* Info.plist */,
 				F869879E1D444B16003D2264 /* Supporting Files */,
 			);
@@ -90,11 +107,12 @@
 		F86987BB1D444BBF003D2264 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
-				FAE07EAE1D46273200324ECB /* Main.storyboard */,
 				F86987BC1D444BBF003D2264 /* FirstNavVC.h */,
 				F86987BD1D444BBF003D2264 /* FirstNavVC.m */,
 				F86987BE1D444BBF003D2264 /* SecondNavVC.h */,
 				F86987BF1D444BBF003D2264 /* SecondNavVC.m */,
+				FAE140981D472DDA005C7424 /* ThirdNav2Level.h */,
+				FAE140991D472DDA005C7424 /* ThirdNav2Level.m */,
 			);
 			path = VCs;
 			sourceTree = "<group>";
@@ -107,6 +125,13 @@
 				FAE07EB31D462E6900324ECB /* tabbar3@2x.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		FAE140871D471114005C7424 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,11 +191,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE140861D4710F9005C7424 /* FirstNav.storyboard in Resources */,
+				FAE140971D471876005C7424 /* Main.storyboard in Resources */,
 				F86987B11D444B16003D2264 /* LaunchScreen.storyboard in Resources */,
 				FAE07EB61D462E6900324ECB /* tabbar3@2x.png in Resources */,
+				FAE1408D1D471660005C7424 /* SecondNav.storyboard in Resources */,
+				FAE1408B1D47121F005C7424 /* ThirdNav.storyboard in Resources */,
 				F86987AE1D444B16003D2264 /* Assets.xcassets in Resources */,
-				FAE07EAF1D46273200324ECB /* Main.storyboard in Resources */,
 				FAE07EB41D462E6900324ECB /* tabbar1@2x.png in Resources */,
+				FAE140941D471851005C7424 /* Main2.storyboard in Resources */,
 				FAE07EB51D462E6900324ECB /* tabbar2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE1409A1D472DDA005C7424 /* ThirdNav2Level.m in Sources */,
 				F86987C11D444BBF003D2264 /* SecondNavVC.m in Sources */,
 				F86987A31D444B16003D2264 /* AppDelegate.m in Sources */,
 				F86987C01D444BBF003D2264 /* FirstNavVC.m in Sources */,
@@ -198,6 +228,22 @@
 				F86987B01D444B16003D2264 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE140921D471851005C7424 /* Main2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE140931D471851005C7424 /* Base */,
+			);
+			name = Main2.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE140951D471876005C7424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE140961D471876005C7424 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,7 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiStoryboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NonMac.MultiStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +347,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiStoryboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NonMac.MultiStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
